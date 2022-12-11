@@ -1,17 +1,29 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <div class="row">
+        <div class="loginForm col-12 mx-auto col-md-8 col-xl-6">
+          <login-component />
+        </div>
+      </div>
+      <div class="row">
+        <div class="registerForm my-5 col-12 mx-auto col-md-8 col-xl-6">
+          <register-component />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoginComponent from './components/LoginComponent.vue';
+import RegisterComponent from './components/RegisterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LoginComponent,
+    RegisterComponent
   }
 }
 </script>
