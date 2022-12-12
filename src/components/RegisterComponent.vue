@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="registerTitle">Registro</h1>
+    <h1 class="title-component">Registro</h1>
     <form class="registerFormComp">
       <div class="mb-3">
         <label for="registerName" class="form-label">Nombre</label>
@@ -33,7 +33,7 @@
           id="confirmRegisterPassword"
         />
       </div>
-      <button type="submit" class="btn btn-primary">Registrarse</button>
+      <button type="submit" class="btn btn-primary btn-style">Registrarse</button>
       <p class="form-text mt-3">Ya estás Registrado? Ingresa desde <a href="#">aquí</a></p>
     </form>
   </div>
@@ -51,10 +51,7 @@ export default {
   border-radius: 10px;
   padding: 2rem 4rem;
 }
-.registerTitle {
-  font-family: Roboto;
-  font-size: 2rem;
-}
+
 .form-text{
   font-size: .85rem;
 }

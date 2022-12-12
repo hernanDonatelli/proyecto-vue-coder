@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="loginTitle">Login</h1>
+    <h1 class="title-component">Login</h1>
     <form class="loginFormComp">
       <div class="mb-3">
         <label for="loginEmail" class="form-label">Email</label>
@@ -15,7 +15,7 @@
         <label for="loginPassword" class="form-label">Password</label>
         <input type="password" class="form-control" id="loginPassword" />
       </div>
-      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="submit" class="btn btn-primary btn-style">Login</button>
       <p class="form-text mt-3">No estás Registrado? Registrate <a href="#">aquí</a></p>
     </form>
   </div>
@@ -32,10 +32,6 @@ export default {
     border: 1px solid lightgrey;
     border-radius: 10px;
     padding: 2rem 4rem;
-}
-.loginTitle{
-    font-family: Roboto;
-    font-size: 2rem;
 }
 .form-text{
   font-size: .85rem;
