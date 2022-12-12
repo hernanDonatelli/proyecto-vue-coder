@@ -319,7 +319,7 @@ button.btn.btn-style {
   font-family: Oswald;
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: .9rem;
   background-color: black;
   border: 1px solid black;
   color: white;
